@@ -187,7 +187,7 @@ namespace rpg
                 Console.WriteLine("0을 입력하면 상점으로 돌아갑니다.");
                 Console.WriteLine("");
 
-                int choice = CheckValidInput(0, _item.Length); // 0 입력 가능
+                int choice = CheckValidInput(0, 4); // 0 입력 가능
                 if (choice == 0) // 0 입력 시 상점 메뉴로 복귀
                 {
                     StoreMenu();
